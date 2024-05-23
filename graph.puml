@@ -1,0 +1,24 @@
+@startuml graph
+skinparam defaultFontName Hasklig
+Início #cyan --> "Introdução ao C++:4" #lime
+"Introdução ao C++:4" #lime --> "C++ nivel 2:2" #lime
+"C++ nivel 2:2" #lime --> "C++ nivel 3:1" #lime
+"Introdução ao C++:4" #lime --> "Recursão:9" #lime
+"Recursão:9" #lime --> "Recursão:10" #lime
+"Recursão:9" #lime --> "Recursão Visual:1" #pink
+"Recursão:9" #lime --> "Análise de Algoritmos:2" #lime
+"Introdução ao C++:4" #lime --> "TAD:2" #lime
+"Recursão:9" #lime --> "Fractais:1" #pink
+"Recursão:9" #lime --> "Backtracking:3" #pink
+"Introdução ao C++:4" #lime --> "Ordenação Básico:1" #lime
+"Ordenação Básico:1" #lime --> "Ordenação Quick Merge:1" #lime
+"Recursão:9" #lime --> "Ordenação Quick Merge:1" #lime
+"TAD:2" #lime --> "Arrays:7" #lime
+"Recursão:9" #lime --> "Arrays:7" #lime
+"Arrays:7" #lime --> "List:6" #lime
+"Arrays:7" #lime --> "Stack:3" #lime
+"Arrays:7" #lime --> "Queue:4" #lime
+"List:6" #lime --> "Tree:6" #lime
+"Tree:6" #lime --> "Em manutenção:5" #lime
+"Em manutenção:5" #lime --> (*)
+@enduml
