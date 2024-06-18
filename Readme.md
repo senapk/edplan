@@ -3,10 +3,14 @@
 
 ## Introdução ao C++ <!-- @intro -->
 
-- [ ] <!-- @001 --> [Sintaxe da Linguagem](https://filler.com.br) 
-- [ ] <!-- @002 --> [Ponteiros](https://filler.com.br)
-- [ ] <!-- @003 --> [Referência](https://filler.com.br)
-- [ ] <!-- @004 --> [Alocação Dinâmica](https://filler.com.br)
+- [ ] <!-- @001 --> [Sintaxe da linguagem]() 
+- [ ] <!-- @002 --> [Ponteiros]()
+- [ ] <!-- @003 --> [Referência]()
+- [ ] <!-- @004 --> [Ponteiros VS referência]()
+- [ ] <!-- @005 --> [Alocação dinâmica]()
+- [ ] <!-- @006 --> [Templates]()
+- [ ] <!-- @007 --> [Iteradores]()
+- [ ] <!-- @008 --> [Sobrecarga]()
 
 ## C++ nivel 2<!-- @cpp2 r:intro -->
 
