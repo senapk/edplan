@@ -1,14 +1,10 @@
-## Iteradores
+# Iteradores
 
-<div align = "center">
-<img src = "assets/iterators_crop.svg" width="600" height="300" />
-</div>
-
-<br/>
+![_](assets/iterators_crop.svg)
 
 Em C++, os iteradores são ferramentas poderosas que permitem <b>percorrer e manipular elementos dentro de coleções de dados de forma eficiente e genérica</b>. Eles fornecem uma abstração uniforme para acessar elementos em diferentes tipos de contêineres, como vetores, listas, conjuntos e mapas, sem a necessidade de conhecer sua implementação interna.
 
-### Percorrendo coleções
+## Percorrendo coleções
 
 Os iteradores são comumente utilizados em loops for para percorrer os elementos de uma coleção:
 
@@ -20,7 +16,7 @@ for (std::vector<int>::iterator it = numbers.begin(); it != numbers.end(); ++it)
 }
 ```
 
-### Acessando elementos
+## Acessando elementos
 
 Os iteradores podem ser desreferenciados para acessar o valor do elemento apontado:
 

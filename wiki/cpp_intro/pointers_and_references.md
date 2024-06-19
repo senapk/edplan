@@ -1,10 +1,6 @@
-## Ponteiros vs referências
+# Ponteiros vs referências
 
-<div align = "center">
-<img src = "assets/pointers_vs_reference_joke.png" width="400" height="500" />
-</div>
-
-<br/>
+![_](assets/pointers_vs_reference_joke.png)
 
 Em C++, tanto ponteiros quanto referências fornecem acesso indireto à memória e à manipulação de dados. No entanto, existem diferenças cruciais em sua natureza, funcionalidade e uso.
 
