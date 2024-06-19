@@ -21,14 +21,14 @@
 
 ## Análise de Algoritmos <!-- @complexity r:recursion -->
 
-- [ ] <!-- @009--> [Notação big-O](https://filler.com.br)
-- [ ] <!-- @010 --> [Complexidade de algoritmos recursivos](https://filler.com.br)
+- [ ] [Notação big-O](wiki/notacao_big_o.md)
+- [ ] [Complexidade de algoritmos recursivos](wiki/complexidade_recursiva.md)
 
 ## Recursão <!-- group -->
 
 ### Recursão 1 <!-- @recursion r:intro -->
 
-- [ ] [Recursão](wiki/recursion.md)
+- [ ] [Recursão](wiki/recursao/recursao.md)
 - [ ] [L0 - @binomiais - Calculando coeficientes](https://github.com/qxcodeed/arcade/blob/master/base/binomiais/Readme.md)
 - [ ] [L0 - @escada - De quantas maneiras podemos subir](https://github.com/qxcodeed/arcade/blob/master/base/escada/Readme.md)
 - [ ] [L1 - @diagonal - Imprimindo um char por linha](https://github.com/qxcodeed/arcade/blob/master/base/diagonal/Readme.md)
