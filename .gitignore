@@ -1,6 +1,9 @@
 # Prerequisites
 *.d
 
+graph.png
+graph.dot
+
 # Compiled Object files
 *.slo
 *.lo
