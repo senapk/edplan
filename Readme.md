@@ -1,29 +1,34 @@
 
 # Repositório de exercícios para Estrutura de Dados
 
-## Introdução ao C++ <!-- @intro -->
+## Intro <!-- group -->
+
+### Introdução ao C++ <!-- @intro -->
 
 - [ ] [Sintaxe da linguagem](wiki/cpp_intro/introducao.md)
 - [ ] [Ponteiros](wiki/cpp_intro/pointers.md)
 - [ ] [Referência](wiki/cpp_intro/reference.md)
-- [ ] [Ponteiros VS referência](wiki/cpp_intro/pointers_vs_reference.md)
+- [ ] [Ponteiros VS referência](wiki/cpp_intro/pointers_and_references.md)
 - [ ] [Alocação dinâmica](wiki/cpp_intro/dynamic_allocation.md)
 - [ ] [Templates](wiki/cpp_intro/templates.md)
 - [ ] [Iteradores](wiki/cpp_intro/iterators.md)
 - [ ] [Sobrecarga](wiki/cpp_intro/overload.md)
+- [ ] [algorithm](wiki/algorithm.md)
+- [ ] [map e set](wiki/map_set.md)
+- [ ] [templates](wiki/templates.md)
 
-## C++ nivel 2<!-- @cpp2 r:intro -->
+## Analise <!-- group -->
 
-- [ ] [algorithm](https://filler.com.br)
-- [ ] [map e set](https://filler.com.br)
+## Análise de Algoritmos <!-- @complexity r:recursion -->
 
-## C++ nivel 3<!-- @cpp3 r:cpp2 -->
+- [ ] <!-- @009--> [Notação big-O](https://filler.com.br)
+- [ ] <!-- @010 --> [Complexidade de algoritmos recursivos](https://filler.com.br)
 
-- [ ] [templates](https://filler.com.br)
+## Recursão <!-- group -->
 
-## Recursão <!-- @recursion r:intro -->
+### Recursão 1 <!-- @recursion r:intro -->
 
-- [ ] [Recursão](https://filler.com.br)
+- [ ] [Recursão](wiki/recursion.md)
 - [ ] [L0 - @binomiais - Calculando coeficientes](https://github.com/qxcodeed/arcade/blob/master/base/binomiais/Readme.md)
 - [ ] [L0 - @escada - De quantas maneiras podemos subir](https://github.com/qxcodeed/arcade/blob/master/base/escada/Readme.md)
 - [ ] [L1 - @diagonal - Imprimindo um char por linha](https://github.com/qxcodeed/arcade/blob/master/base/diagonal/Readme.md)
@@ -33,7 +38,7 @@
 - [ ] [L2 - @padroes2 - Descobrindo quantas pecinhas](https://github.com/qxcodeed/arcade/blob/master/base/padroes2/Readme.md)
 - [ ] [L2 - @santo JM - O milagre de ficar pobre](https://github.com/qxcodeed/arcade/blob/master/base/santo/Readme.md)
 
-## Recursão <!-- @recursion2 r:recursion -->
+### Recursão 2 <!-- @recursion2 r:recursion -->
   
 - [ ] [L2 - @fibonacci - Procriando coelhos](https://github.com/qxcodeed/arcade/blob/master/base/fibonacci/Readme.md)
 - [ ] [L2 - @quadrado - Aragão calculando n ao quadrado](https://github.com/qxcodeed/arcade/blob/master/base/quadrado/Readme.md)
@@ -42,43 +47,33 @@
 - [ ] [L3 - @padroes3 - Contando pontos](https://github.com/qxcodeed/arcade/blob/master/base/padroes3/Readme.md)
 - [ ] [L1 - @triangulo - Imprimindo ao contrário $required](https://github.com/qxcodeed/arcade/blob/master/base/triangulo/Readme.md)
 - [ ] [L2 - @treinando recursão com vetores](https://github.com/qxcodeed/arcade/blob/master/base/treinando/Readme.md)
-
 - [ ] [L1 - @eh_primo - Retorna se é ou não é](https://github.com/qxcodeed/arcade/blob/master/base/eh_primo/Readme.md)
 - [ ] [L2 - @enesimo - Gere o enesimo primo](https://github.com/qxcodeed/arcade/blob/master/base/enesimo/Readme.md)
 - [ ] [L2 - @priminhos - Carrega a lista de primos](https://github.com/qxcodeed/arcade/blob/master/base/priminhos/Readme.md)
 
-## Recursão Visual <!-- @recursion_visual r:recursion t:side -->
+### Recursão Visual <!-- @recursion_visual r:recursion opt -->
 
-- [L2 - @queimada - Tocando fogo na floresta | Modelo student](https://github.com/qxcodeed/arcade/blob/master/base/queimada/Readme.md)
+- [ ] [L2 - @queimada - Tocando fogo na floresta | Modelo student](https://github.com/qxcodeed/arcade/blob/master/base/queimada/Readme.md)
+- [ ] [@fractais](wiki/fractais.md)  
 
-## Análise de Algoritmos <!-- @complexity r:recursion -->
+### Backtracking <!-- @backtracking r:recursion opt-->
 
-- [ ] <!-- @009--> [Notação big-O](https://filler.com.br)
-- [ ] <!-- @010 --> [Complexidade de algoritmos recursivos](https://filler.com.br)
+- [ ] [L2 - escapando do @labirinto](https://github.com/qxcodeed/arcade/blob/master/base/labirinto/Readme.md)
+- [ ] [L2 - @distancia](https://github.com/qxcodeed/arcade/blob/master/base/distancia/Readme.md)
+- [ ] [L3 - @sudoku](https://github.com/qxcodeed/arcade/blob/master/base/sudoku/Readme.md)
+
+## TAD <!-- group -->
 
 ## TAD <!-- @tad r:intro -->
 
 - [ ] [L2 - @ponto - Implemente a classe ponto](https://github.com/qxcodeed/arcade/blob/master/base/ponto/Readme.md)
 - [ ] [L3 - @fracao - Implemente a classe fração reduzida](https://github.com/qxcodeed/arcade/blob/master/base/fracao/Readme.md)
 
-## Fractais <!-- @fractais r:recursion t:side -->
-
-- [ ] [@fractais](hppts://filler.com.br)  
-
-## Backtracking <!-- @backtracking r:recursion t:side-->
-
-- [ ] [L2 - escapando do @labirinto](https://github.com/qxcodeed/arcade/blob/master/base/labirinto/Readme.md)
-- [ ] [L2 - @distancia](https://github.com/qxcodeed/arcade/blob/master/base/distancia/Readme.md)
-- [ ] [L3 - @sudoku](https://github.com/qxcodeed/arcade/blob/master/base/sudoku/Readme.md)
-
 ## Ordenação Básico <!-- @sort r:intro -->
 
-- Ricardo Reis
-  - [ ] [L2 - @mergevet - Criando um vetor simples e fazendo um merge $alpha](https://github.com/qxcodeed/arcade/blob/master/base/mergevet/Readme.md)
-
-## Ordenação Quick Merge <!-- @sort2 r:sort r:recursion -->
-
 - [ ] [L2 - @merge - Criando um vetor simples e fazendo um merge $alpha](https://github.com/qxcodeed/arcade/blob/master/base/mergevet/Readme.md)
+
+## Estruturas Lineares <!-- group -->
 
 ## Arrays <!-- @array r:tad r:recursion -->
 
@@ -112,7 +107,9 @@
 - [ ] [L2 - @caminhao abastecendo](https://github.com/qxcodeed/arcade/blob/master/base/caminhao/Readme.md)
 - [ ] [L3 - menor @caminho entre dois pontos - floodfill pathfinding](https://github.com/qxcodeed/arcade/blob/master/base/caminho/Readme.md)
 
-## Tree <!-- @tree r:list -->
+## Árvores
+
+### Tree <!-- @tree r:list -->
 
 - [ ] [L2 - lendo uma árvore a partir de um @serial](https://github.com/qxcodeed/arcade/blob/master/base/serial/Readme.md)
 - [ ] [L2 - mostrando a árvore @formatada](https://github.com/qxcodeed/arcade/blob/master/base/formatada/Readme.md)
@@ -121,7 +118,7 @@
 - [ ] [L2 - @arvore-path](https://github.com/qxcodeed/arcade/blob/master/base/arvore-path/Readme.md)
 - [ ] [L2 - serialização @dividido](https://github.com/qxcodeed/arcade/blob/master/base/dividido/Readme.md)
 
-## Em manutenção <!-- @maintenance r:tree -->
+### Em manutenção <!-- @maintenance r:tree -->
 
 - [ ] [L2 - @matriz Soma e Multiplicação (em manutenção) | draft](https://github.com/qxcodeed/arcade/blob/master/base/matriz/Readme.md)
 - [ ] [@subconjuntos](https://github.com/qxcodeed/arcade/blob/master/base/subconjuntos/Readme.md)
