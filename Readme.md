@@ -40,8 +40,7 @@
 
 ## Análise de Algoritmos <!-- @complexity r:intro -->
 
-- [ ] [Notação big-O](wiki/notacao_big_o.md)
-- [ ] [Complexidade de algoritmos recursivos](wiki/complexidade_recursiva.md)
+- [ ] [Complexidade de algoritmos recursivos](wiki/complexidade/complexidade.md)
 
 ## Recursão <!-- group -->
 
