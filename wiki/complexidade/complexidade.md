@@ -1,5 +1,21 @@
 # Análise de Algoritmos
 
+<!-- toc -->
+- [Introdução e Definição](#introdução-e-definição)
+- [Contagem de Passos](#contagem-de-passos)
+  - [Exemplo 1: Soma de elementos de um array](#exemplo-1-soma-de-elementos-de-um-array)
+  - [Exemplo 2: Busca linear em um array](#exemplo-2-busca-linear-em-um-array)
+- [Eficiência](#eficiência)
+  - [Exemplo: Busca Linear](#exemplo-busca-linear)
+- [Comportamento Assintótico](#comportamento-assintótico)
+- [Notação Big-O](#notação-big-o)
+  - [Comparação de Funções](#comparação-de-funções)
+  - [Exemplo de Cálculo de Notação Big-O](#exemplo-de-cálculo-de-notação-big-o)
+  - [Exemplo 1: Mostrar que $2n + 120 \in O(n)$](#exemplo-1-mostrar-que-2n--120-\in-on)
+    - [Prova](#prova)
+  - [Exemplo 2: Soma de elementos de um array](#exemplo-2-soma-de-elementos-de-um-array)
+<!-- toc -->
+
 ## Introdução e Definição
 
 A análise de algoritmos é uma área fundamental da ciência da computação que se concentra em entender a eficiência dos algoritmos, tanto em termos de tempo quanto de espaço (memória) utilizados. Um algoritmo é uma sequência finita de passos que resolve um problema específico. Avaliar a eficiência dos algoritmos nos ajuda a escolher a melhor solução para um problema dado, especialmente quando lidamos com grandes quantidades de dados. Um bom algoritmo pode superar um algoritmo ruim, mesmo em um hardware inferior, especialmente em instâncias grandes do problema.
