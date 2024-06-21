@@ -31,7 +31,7 @@ class TocMaker:
             elif c == '_':
                 out += '_'
             elif c == '\\':
-                out += '\\\\'
+                pass
             elif c.isalnum():
                 out += c
         return out
@@ -81,8 +81,7 @@ class Toc:
         try:
             return re.sub(regex, subst, content, 0, re.MULTILINE | re.DOTALL)
         except Exception as e:
-            print(str(e))
-            print(new_toc)
+            print("error:", e)
             return content
 
 

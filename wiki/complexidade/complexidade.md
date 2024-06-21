@@ -11,7 +11,7 @@
 - [Notação Big-O](#notação-big-o)
   - [Comparação de Funções](#comparação-de-funções)
   - [Exemplo de Cálculo de Notação Big-O](#exemplo-de-cálculo-de-notação-big-o)
-  - [Exemplo 1: Mostrar que $2n + 120 \in O(n)$](#exemplo-1-mostrar-que-2n--120-\in-on)
+  - [Exemplo 1: Mostrar que $2n + 120 \in O(n)$](#exemplo-1-mostrar-que-2n--120-in-on)
     - [Prova](#prova)
   - [Exemplo 2: Soma de elementos de um array](#exemplo-2-soma-de-elementos-de-um-array)
 <!-- toc -->
