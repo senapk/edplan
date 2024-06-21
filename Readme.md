@@ -35,7 +35,9 @@
 
 ### TAD <!-- @tad r:complexity -->
 
+- [ ] [Como fazer sobrecarga de cópia e referencia para métodos get](wiki/tad/sobrecarga.md)
 - [ ] [L2 - @ponto - Implemente a classe ponto](https://github.com/qxcodeed/arcade/blob/master/base/ponto/Readme.md)
+- [ ] [Sobrecarga de operadores em classes](wiki/tad/sobrecarga_operadores.md)
 - [ ] [L3 - @fracao - Implemente a classe fração reduzida](https://github.com/qxcodeed/arcade/blob/master/base/fracao/Readme.md)
 
 ## Análise de Algoritmos <!-- @complexity r:intro -->
