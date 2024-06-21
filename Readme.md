@@ -65,10 +65,14 @@
 - [ ] [L3 - @fibonacci2 - Fazendo filhos e morrendo](https://github.com/qxcodeed/arcade/blob/master/base/fibonacci2/Readme.md)
 - [ ] [L3 - @padroes3 - Contando pontos](https://github.com/qxcodeed/arcade/blob/master/base/padroes3/Readme.md)
 - [ ] [L1 - @triangulo - Imprimindo ao contrário](https://github.com/qxcodeed/arcade/blob/master/base/triangulo/Readme.md)
-- [ ] [L2 - @treinando recursão com vetores](https://github.com/qxcodeed/arcade/blob/master/base/treinando/Readme.md)
 - [ ] [L1 - @eh_primo - Retorna se é ou não é](https://github.com/qxcodeed/arcade/blob/master/base/eh_primo/Readme.md)
 - [ ] [L2 - @enesimo - Gere o enesimo primo](https://github.com/qxcodeed/arcade/blob/master/base/enesimo/Readme.md)
 - [ ] [L2 - @priminhos - Carrega a lista de primos](https://github.com/qxcodeed/arcade/blob/master/base/priminhos/Readme.md)
+
+### Recursão com Vetores <!-- @recursion_vector r:recursion_extra -->
+
+- [ ] [Como percorrer vetores recursivamente](wiki/rec_vetores/percorrer_vetores.md)
+- [ ] [L2 - @treinando recursão com vetores](https://github.com/qxcodeed/arcade/blob/master/base/treinando/Readme.md)
 
 ### Recursão Visual <!-- @recursion_visual r:recursion opt -->
 
