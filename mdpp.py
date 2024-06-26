@@ -8,6 +8,8 @@ import enum
 from typing import Optional, List
 import subprocess
 
+__version__ = 1.0
+
 class Action(enum.Enum):
     RUN = 1
     CLEAN = 2
@@ -206,10 +208,15 @@ class Main:
     
 def main():
     parser = argparse.ArgumentParser()
+    parser.add_argument('--version', '-v', action='version', version='%(prog)s ' + str(__version__))
     parser.add_argument('targets', metavar='T', type=str, nargs='*', help='Readmes or folders')
     parser.add_argument('--quiet', '-q', action="store_true", help='quiet mode')
     parser.add_argument('--clean', '-c', action="store_true", help='clean mode')
     args = parser.parse_args()
+
+    if args.version:
+        print("mdpp version", __version__)
+        return
 
     if len(args.targets) == 0:
         args.targets.append(".")
