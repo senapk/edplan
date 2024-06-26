@@ -8,6 +8,16 @@ import enum
 from typing import Optional, List
 import subprocess
 
+version = "1.1"
+
+def fread(path):
+    with open(path, "r", encoding='utf-8') as f:
+        return f.read()
+
+def fwrite(path, content):
+    with open(path, "w", encoding='utf-8') as f:
+        f.write(content)
+
 class Action(enum.Enum):
     RUN = 1
     CLEAN = 2
@@ -144,13 +154,13 @@ class Load:
                             new_content += "\n"
                     elif len(extract) > 0:
                         tag = extract[0].split("=")[1]
-                        data = Load.extract_between_tags(open(path).read(), tag)
+                        data = Load.extract_between_tags(fread(path), tag)
                         new_content += data
                         if len(data) == 0 or data[-1] != "\n":
                             new_content += "\n"
                     else:
-                        data = open(path).read()
-                        new_content += open(path).read()
+                        data = fread(path)
+                        new_content += data
                         if data[-1] != "\n":
                             new_content += "\n"
                 else:
@@ -177,7 +187,7 @@ class Save:
             content = match.group(2)
             exists = os.path.isfile(path)
             if exists:
-                content_old = open(path).read()
+                content_old = fread(path)
             if not exists or content != content_old:
                 with open(path, "w") as f:
                     print("file", path, "updated")
@@ -198,18 +208,24 @@ class Main:
     @staticmethod
     def open_file(path): 
         if os.path.isfile(path):
-            with open(path) as f:
-                file_content = f.read()
+            try:
+                file_content = fread(path)
                 return True, file_content
-        print("Warning: File", path, "not found")
+            except FileNotFoundError as e:
+                print("Warning: File", path, "not found")
         return False, "" 
     
 def main():
     parser = argparse.ArgumentParser()
+    parser.add_argument('--version', '-v', action="store_true", help='show version')
     parser.add_argument('targets', metavar='T', type=str, nargs='*', help='Readmes or folders')
     parser.add_argument('--quiet', '-q', action="store_true", help='quiet mode')
     parser.add_argument('--clean', '-c', action="store_true", help='clean mode')
     args = parser.parse_args()
+
+    if args.version:
+        print(version)
+        return
 
     if len(args.targets) == 0:
         args.targets.append(".")
