@@ -95,7 +95,7 @@
 
 ### Ordenação Recursiva <!-- @sort2 r:sort -->
 
-- [ ] [quick e merge](wiki/quick_merge.md)
+- [ ] [Quick e Merge](wiki/ordenacao_recursiva/ordenacao_rec.md)
 - [ ] [L2 - @merge - Criando um vetor simples e fazendo um merge $alpha](https://github.com/qxcodeed/arcade/blob/master/base/mergevet/Readme.md)
 
 ## Array <!-- group -->
