@@ -90,8 +90,8 @@
 
 ### Busca e Ordenação <!-- @sort r:recursion_extra -->
 
-- [ ] [busca binária](wiki/busca_binaria.md)
-- [ ] [Algoritmos básicos de ordenação](wiki/ordenacao.md)
+- [ ] [Algoritmos de busca](wiki/busca_ordenacao/busca.md)
+- [ ] [Algoritmos básicos de ordenação](wiki/busca_ordenacao/ordenacao.md)
 
 ### Ordenação Recursiva <!-- @sort2 r:sort -->
 
