@@ -3,12 +3,43 @@
 
 ## Intro <!-- group -->
 
+Esse é um repositório que integra o conteúdo das atividades de Estrutura de Dados (ES) para os cursos:
+
+- Ciência da Computação
+- Engenharia de Computação
+- Sistemas de Informação
+- Engenharia de Software
+
+Esse curso apresenta os fundamentos teóricos e atividades práticas para a compreensão de como funcionam as estruturas de dados básicas e como utilizá-las para resolver problemas computacionais.
+
+A linguagem escolhida para o curso é o C++, pois permite uma compreensão melhor das estruturas de baixo nível, como gestão da memória e um nível de controle que permite controlar e compreender a complexidade dos algoritmos.
+
+O prérequisito para o curso é ter conhecimento básico de programação e lógica de programação, em linguagem C, C++, ou Python.
+
+Cada grande bloco é composto de várias grupos, chamados de missões. Uma missão representa a aquisição de um conhecimento ou habilidade específica. Cada missão é composta de várias atividades, chamadas de tarefas. Uma tarefa pode ser uma leitura, vídeo, exercício teórico ou prática. Algumas atividades de código estão no modelo de maratona, com casos de testes que avaliam se o código resolve o problema proposto.
+
+Para baixar as atividades, marcar as atividades feitas e executar os códigos de teste, você pode utilizar o aplicativo [tko](https://github.com/senapk/tko).
+
+O próprio aplicativo vai orientar a sequência sugerida na qual as atividades devem ser realizadas e o mínimo a ser obtido para avançar para as próximas missões.
+
+Bom trabalho.
+
 ### Introdução ao C++ <!-- @intro -->
 
+Nesse primeiro bloco, vamos aprender ou relembrar os conceitos básicos da linguagem C++. Antes de iniciarmos com exercícios próprios da disciplina de ES, precisamos fixar conceitos e a semântica de como trabalhar com:
+
+- Entrada e Saída
+- Seleção e Repetição
+- Funções
+- Ponteiros e Referência
+- Arrays e Vectors
 - [ ] [Sintaxe da linguagem](wiki/cpp_intro/introducao.md)
 - [ ] [Ponteiros](wiki/cpp_intro/pointers.md)
 - [ ] [Referência](wiki/cpp_intro/reference.md)
 - [ ] [Ponteiros VS referência](wiki/cpp_intro/pointers_and_references.md)
+
+### Bloco 2 de linguagem <!-- @cpp r:intro -->
+
 - [ ] [Alocação dinâmica](wiki/cpp_intro/dynamic_allocation.md)
 - [ ] [Templates](wiki/cpp_intro/templates.md)
 - [ ] [Sobrecarga](wiki/cpp_intro/overload.md)
