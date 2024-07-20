@@ -26,7 +26,7 @@ Bom trabalho.
 
 ### Introdução ao C++ <!-- @intro -->
 
-Nesse primeiro bloco, vamos aprender ou relembrar os conceitos básicos da linguagem C++. Antes de iniciarmos com exercícios próprios da disciplina de ES, precisamos fixar conceitos e a semântica de como trabalhar com:
+Nesse primeiro bloco, vamos aprender ou relembrar os conceitos básicos da linguagem C++. Antes de iniciarmos com exercícios próprios da disciplina de ED, precisamos fixar conceitos e a semântica de como trabalhar com:
 
 - Entrada e Saída
 - Seleção e Repetição
@@ -77,6 +77,8 @@ Nesse primeiro bloco, vamos aprender ou relembrar os conceitos básicos da lingu
 
 ## Recursão <!-- group -->
 
+Nesse bloco, abordaremos o conceito de recursividade, uma técnica de programação que permite que uma função chame a si mesma para resolver problemas de forma mais elegante e eficiente. Entender recursividade pode ajudar a simplificar problemas complicados e tornar a programação mais fácil e eficaz.
+
 ### Recursão Base <!-- @recursion r:intro -->
 
 - [ ] [Recursão](wiki/recursao/recursao.md)
@@ -118,6 +120,8 @@ Nesse primeiro bloco, vamos aprender ou relembrar os conceitos básicos da lingu
 - [ ] [L3 - @sudoku](https://github.com/qxcodeed/arcade/blob/master/base/sudoku/Readme.md)
 
 ## Ordenação <!-- group -->
+
+Nesse bloco, abordaremos os algoritmos de busca e ordenação, duas técnicas essenciais na programação. Os algoritmos de busca são usados para encontrar elementos específicos dentro de uma estrutura de dados (localizar um nome específico em uma lista de contatos, por exemplo), enquanto os algoritmos de ordenação organizam esses elementos em uma sequência desejada (como organizar uma lista de livros por título em ordem alfabética). Compreender essas técnicas é crucial para manipular e acessar dados de forma eficiente em seus programas.
 
 ### Busca e Ordenação <!-- @sort r:recursion_extra -->
 
