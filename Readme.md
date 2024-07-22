@@ -73,7 +73,11 @@ Nesse primeiro bloco, vamos aprender ou relembrar os conceitos básicos da lingu
 
 ## Análise de Algoritmos <!-- @complexity r:intro -->
 
-- [ ] [Complexidade de algoritmos recursivos](wiki/complexidade/complexidade.md)
+A análise de algoritmos é essencial para entender e avaliar a eficiência das soluções computacionais. Ela permite medir o desempenho dos algoritmos em termos de tempo e espaço, facilitando a comparação entre diferentes abordagens para a mesma tarefa. Compreender a complexidade computacional ajuda a tomar decisões informadas sobre qual algoritmo utilizar, otimizando recursos e melhorando a performance do sistema.
+
+Estudar análise de algoritmos também revela os limites e aplicabilidades de cada solução, evitando o uso inadequado e promovendo a criação de algoritmos mais eficientes e inovadores. Esse conhecimento é crucial não apenas para a resolução de problemas reais, mas também para o desenvolvimento de software otimizado e para a preparação em entrevistas técnicas, onde a análise de algoritmos é frequentemente testada.
+
+- [ ] [Complexidade de algoritmos](wiki/complexidade/complexidade.md)
 
 ## Recursão <!-- group -->
 
@@ -135,6 +139,11 @@ Nesse bloco, abordaremos os algoritmos de busca e ordenação, duas técnicas es
 
 ## Array <!-- group -->
 
+Os vetores são estruturas de dados fundamentais que permitem acesso direto e rápido a qualquer elemento, tornando operações de leitura e escrita extremamente eficientes. Compreender como os vetores gerenciam a memória e os custos associados ao redimensionamento é essencial para tomar decisões informadas sobre seu uso. Além disso, os vetores são amplamente utilizados em diversas aplicações e são nativamente suportados por muitas linguagens de programação, o que facilita sua integração com outras partes do sistema. Para entender melhor o funcionamento da estrutura vamos trabalhar sua:
+
+- Construção
+- Utilização
+
 ## Array - Construindo <!-- @array r:tad -->
 
 - [ ] [L2 - implementando vector com @ponteiros](https://github.com/qxcodeed/arcade/blob/master/base/ponteiros/Readme.md)
@@ -153,6 +162,11 @@ Nesse bloco, abordaremos os algoritmos de busca e ordenação, duas técnicas es
 - [ ] [L2 - @apagando elementos de forma eficiente](https://github.com/qxcodeed/arcade/blob/master/base/apagando/Readme.md)
 
 ## List <!-- group -->
+
+Agora estudaremos as listas encadeadas, estruturas de dados flexíveis e eficientes que podem crescer e diminuir de tamanho facilmente, adaptando-se às necessidades de armazenamento dos elementos. Diferentemente dos vetores, que têm um tamanho fixo ou precisam ser redimensionados de forma custosa, as listas encadeadas não utilizam um espaço de armazenamento contínuo na memória. Elas são representadas por uma sequência de elementos ligados entre si, podendo ser simplesmente ou duplamente encadeadas, lineares ou circulares. Além disso, as listas encadeadas servem como base para a implementação de diversas outras estruturas de dados, como pilhas, filas e grafos. Para entender melhor o funcionamento da estrutura vamos trabalhar sua:
+
+- Construção
+- Utilização
 
 ### List - Construindo <!-- @list r:recursion r:tad -->
 
